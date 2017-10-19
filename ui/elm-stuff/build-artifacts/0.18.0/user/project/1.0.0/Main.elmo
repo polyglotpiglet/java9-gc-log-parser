@@ -1,0 +1,99 @@
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		if (_p0.ctor === 'PathToLogFile') {
+			return _elm_lang$core$Native_Utils.update(
+				model,
+				{pathToLogFile: _p0._0});
+		} else {
+			return _elm_lang$core$Native_Utils.update(
+				model,
+				{magicNumber: model.magicNumber + 1});
+		}
+	});
+var _user$project$Main$_p1 = _user$project$SharedStyles$homepageNamespace;
+var _user$project$Main$id = _user$project$Main$_p1.id;
+var _user$project$Main$class = _user$project$Main$_p1.$class;
+var _user$project$Main$classList = _user$project$Main$_p1.classList;
+var _user$project$Main$Model = F2(
+	function (a, b) {
+		return {pathToLogFile: a, magicNumber: b};
+	});
+var _user$project$Main$model = A2(_user$project$Main$Model, '', 0);
+var _user$project$Main$Increment = {ctor: 'Increment'};
+var _user$project$Main$PathToLogFile = function (a) {
+	return {ctor: 'PathToLogFile', _0: a};
+};
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h1,
+				{
+					ctor: '::',
+					_0: _user$project$Main$id(_user$project$SharedStyles$BuyTickets),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Welcome to your cute new gc log parser! '),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$input,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$type_('text'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$placeholder('Path to log file'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Events$onInput(_user$project$Main$PathToLogFile),
+								_1: {ctor: '[]'}
+							}
+						}
+					},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _user$project$Main$id(_user$project$SharedStyles$BuyTickets),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text(
+								_elm_lang$core$Basics$toString(model)),
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$button,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$Increment),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('+'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		});
+};
+var _user$project$Main$main = _elm_lang$html$Html$beginnerProgram(
+	{model: _user$project$Main$model, view: _user$project$Main$view, update: _user$project$Main$update})();

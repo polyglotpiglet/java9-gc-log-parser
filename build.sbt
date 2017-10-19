@@ -38,6 +38,8 @@ lazy val app = (project in file("app"))
       "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
       "ch.megard" %% "akka-http-cors" % "0.2.1",
+      "org.scala-lang.modules" % "scala-swing_2.12" % "2.0.0",
+//      "org.scala-lang" % "scala-library" % "2.11.7",
 
       "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % Test,
       "org.scalatest" %% "scalatest" % "3.0.1" % Test

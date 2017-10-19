@@ -1,0 +1,135 @@
+var _user$project$HomepageCss$css = function (_p0) {
+	return _rtfeldman$elm_css$Css$stylesheet(
+		A2(_rtfeldman$elm_css$Css_Namespace$namespace, _user$project$SharedStyles$homepageNamespace.name, _p0));
+}(
+	{
+		ctor: '::',
+		_0: _rtfeldman$elm_css$Css_Elements$header(
+			{
+				ctor: '::',
+				_0: _rtfeldman$elm_css$Css$backgroundColor(
+					A3(_rtfeldman$elm_css$Css$rgb, 90, 90, 90)),
+				_1: {
+					ctor: '::',
+					_0: _rtfeldman$elm_css$Css$boxSizing(_rtfeldman$elm_css$Css$borderBox),
+					_1: {
+						ctor: '::',
+						_0: _rtfeldman$elm_css$Css$padding(
+							_rtfeldman$elm_css$Css$px(-80)),
+						_1: {
+							ctor: '::',
+							_0: A5(
+								_rtfeldman$elm_css$Css$boxShadow5,
+								_rtfeldman$elm_css$Css$inset,
+								_rtfeldman$elm_css$Css$px(2),
+								_rtfeldman$elm_css$Css$px(3),
+								_rtfeldman$elm_css$Css$px(4),
+								_rtfeldman$elm_css$Css$hex('333')),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}),
+		_1: {
+			ctor: '::',
+			_0: _rtfeldman$elm_css$Css_Elements$nav(
+				{
+					ctor: '::',
+					_0: _rtfeldman$elm_css$Css$display(_rtfeldman$elm_css$Css$inlineBlock),
+					_1: {
+						ctor: '::',
+						_0: _rtfeldman$elm_css$Css$paddingBottom(
+							_rtfeldman$elm_css$Css$px(12)),
+						_1: {ctor: '[]'}
+					}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_rtfeldman$elm_css$Css$class,
+					_user$project$SharedStyles$NavLink,
+					{
+						ctor: '::',
+						_0: _rtfeldman$elm_css$Css$margin(
+							_rtfeldman$elm_css$Css$px(12)),
+						_1: {
+							ctor: '::',
+							_0: _rtfeldman$elm_css$Css$color(
+								A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_rtfeldman$elm_css$Css$id,
+						_user$project$SharedStyles$ReactiveLogo,
+						{
+							ctor: '::',
+							_0: _rtfeldman$elm_css$Css$display(_rtfeldman$elm_css$Css$inlineBlock),
+							_1: {
+								ctor: '::',
+								_0: _rtfeldman$elm_css$Css$marginLeft(
+									_rtfeldman$elm_css$Css$px(150)),
+								_1: {
+									ctor: '::',
+									_0: _rtfeldman$elm_css$Css$marginRight(
+										_rtfeldman$elm_css$Css$px(80)),
+									_1: {
+										ctor: '::',
+										_0: _rtfeldman$elm_css$Css$verticalAlign(_rtfeldman$elm_css$Css$middle),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_rtfeldman$elm_css$Css$id,
+							_user$project$SharedStyles$BuyTickets,
+							{
+								ctor: '::',
+								_0: _rtfeldman$elm_css$Css$padding(
+									_rtfeldman$elm_css$Css$px(16)),
+								_1: {
+									ctor: '::',
+									_0: _rtfeldman$elm_css$Css$paddingLeft(
+										_rtfeldman$elm_css$Css$px(24)),
+									_1: {
+										ctor: '::',
+										_0: _rtfeldman$elm_css$Css$paddingRight(
+											_rtfeldman$elm_css$Css$px(24)),
+										_1: {
+											ctor: '::',
+											_0: _rtfeldman$elm_css$Css$marginLeft(
+												_rtfeldman$elm_css$Css$px(50)),
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$marginRight(_rtfeldman$elm_css$Css$auto),
+												_1: {
+													ctor: '::',
+													_0: _rtfeldman$elm_css$Css$color(
+														A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+													_1: {
+														ctor: '::',
+														_0: _rtfeldman$elm_css$Css$backgroundColor(
+															A3(_rtfeldman$elm_css$Css$rgb, 27, 217, 130)),
+														_1: {
+															ctor: '::',
+															_0: _rtfeldman$elm_css$Css$verticalAlign(_rtfeldman$elm_css$Css$middle),
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	});
