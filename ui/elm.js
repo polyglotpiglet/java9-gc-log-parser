@@ -8540,8 +8540,8 @@ var _rtfeldman$elm_css_helpers$Html_CssHelpers$Namespace = F4(
 
 var _user$project$SharedStyles$homepageNamespace = _rtfeldman$elm_css_helpers$Html_CssHelpers$withNamespace('homepage');
 var _user$project$SharedStyles$NavLink = {ctor: 'NavLink'};
-var _user$project$SharedStyles$BuyTickets = {ctor: 'BuyTickets'};
-var _user$project$SharedStyles$ReactiveLogo = {ctor: 'ReactiveLogo'};
+var _user$project$SharedStyles$PathToLogFileInput = {ctor: 'PathToLogFileInput'};
+var _user$project$SharedStyles$SubmitButton = {ctor: 'SubmitButton'};
 
 var _user$project$Main$update = F2(
 	function (msg, model) {
@@ -8576,22 +8576,11 @@ var _user$project$Main$view = function (model) {
 		{
 			ctor: '::',
 			_0: A2(
-				_elm_lang$html$Html$h1,
+				_elm_lang$html$Html$input,
 				{
 					ctor: '::',
-					_0: _user$project$Main$id(_user$project$SharedStyles$BuyTickets),
-					_1: {ctor: '[]'}
-				},
-				{
-					ctor: '::',
-					_0: _elm_lang$html$Html$text('Welcome to your cute new gc log parser! '),
-					_1: {ctor: '[]'}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A2(
-					_elm_lang$html$Html$input,
-					{
+					_0: _user$project$Main$id(_user$project$SharedStyles$PathToLogFileInput),
+					_1: {
 						ctor: '::',
 						_0: _elm_lang$html$Html_Attributes$type_('text'),
 						_1: {
@@ -8603,40 +8592,28 @@ var _user$project$Main$view = function (model) {
 								_1: {ctor: '[]'}
 							}
 						}
-					},
-					{ctor: '[]'}),
-				_1: {
-					ctor: '::',
-					_0: A2(
-						_elm_lang$html$Html$div,
-						{
-							ctor: '::',
-							_0: _user$project$Main$id(_user$project$SharedStyles$BuyTickets),
-							_1: {ctor: '[]'}
-						},
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html$text(
-								_elm_lang$core$Basics$toString(model)),
-							_1: {ctor: '[]'}
-						}),
-					_1: {
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$button,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$Increment),
-								_1: {ctor: '[]'}
-							},
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html$text('+'),
-								_1: {ctor: '[]'}
-							}),
-						_1: {ctor: '[]'}
 					}
-				}
+				},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$button,
+					{
+						ctor: '::',
+						_0: _user$project$Main$id(_user$project$SharedStyles$SubmitButton),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$Increment),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Submit'),
+						_1: {ctor: '[]'}
+					}),
+				_1: {ctor: '[]'}
 			}
 		});
 };

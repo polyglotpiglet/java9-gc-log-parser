@@ -8,8 +8,8 @@ type CssClasses
 
 
 type CssIds
-    = ReactiveLogo
-    | BuyTickets
+    = SubmitButton
+    | PathToLogFileInput
 
 
 homepageNamespace =

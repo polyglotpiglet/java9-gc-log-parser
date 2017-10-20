@@ -44,9 +44,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
   div []
-    [ h1 [ id BuyTickets ] [ text ("Welcome to your cute new gc log parser! ") ]
-    , input [ type_ "text", placeholder "Path to log file", onInput PathToLogFile ] []
-    , div [ id BuyTickets ] [ text (toString model) ]
-    , button [ onClick Increment ] [ text "+" ]
+    [ input [ id PathToLogFileInput, type_ "text", placeholder "Path to log file", onInput PathToLogFile ] []
+    , button [ id SubmitButton, onClick Increment ] [ text "Submit" ]
     ]
 

@@ -15,20 +15,26 @@ nav {
     color: rgb(255, 255, 255);
 }
 
-#ReactiveLogo {
-    display: inline-block;
-    margin-left: 150px;
-    margin-right: 80px;
-    vertical-align: middle;
+#SubmitButton {
+    padding: 3px;
+    width: 70px;
+    height: 20px;
+    top: 40%;
+    left: 400px;
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
 }
 
-#BuyTickets {
-    padding: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-left: 50px;
-    margin-right: auto;
+#PathToLogFileInput {
+    padding: 12px;
+    width: 10%;
+    height: 30px;
+    top: 40%;
+    left: 42.5%;
+    margin-left: -20px;
+    margin-top: -20px;
     color: rgb(255, 255, 255);
     background-color: rgb(27, 217, 130);
-    vertical-align: middle;
+    position: absolute;
 }

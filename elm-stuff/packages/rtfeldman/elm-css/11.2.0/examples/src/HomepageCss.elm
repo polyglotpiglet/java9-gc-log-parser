@@ -28,7 +28,7 @@ css =
             , marginRight (px 80)
             , verticalAlign middle
             ]
-        , id BuyTickets
+        , id PathToLogFileInput
             [ padding (px 16)
             , paddingLeft (px 24)
             , paddingRight (px 24)

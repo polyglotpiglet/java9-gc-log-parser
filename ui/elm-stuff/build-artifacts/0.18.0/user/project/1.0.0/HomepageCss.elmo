@@ -63,22 +63,43 @@ var _user$project$HomepageCss$css = function (_p0) {
 					ctor: '::',
 					_0: A2(
 						_rtfeldman$elm_css$Css$id,
-						_user$project$SharedStyles$ReactiveLogo,
+						_user$project$SharedStyles$SubmitButton,
 						{
 							ctor: '::',
-							_0: _rtfeldman$elm_css$Css$display(_rtfeldman$elm_css$Css$inlineBlock),
+							_0: _rtfeldman$elm_css$Css$padding(
+								_rtfeldman$elm_css$Css$px(3)),
 							_1: {
 								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$marginLeft(
-									_rtfeldman$elm_css$Css$px(150)),
+								_0: _rtfeldman$elm_css$Css$width(
+									_rtfeldman$elm_css$Css$px(70)),
 								_1: {
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$marginRight(
-										_rtfeldman$elm_css$Css$px(80)),
+									_0: _rtfeldman$elm_css$Css$height(
+										_rtfeldman$elm_css$Css$px(20)),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$verticalAlign(_rtfeldman$elm_css$Css$middle),
-										_1: {ctor: '[]'}
+										_0: _rtfeldman$elm_css$Css$top(
+											_rtfeldman$elm_css$Css$pct(40)),
+										_1: {
+											ctor: '::',
+											_0: _rtfeldman$elm_css$Css$left(
+												_rtfeldman$elm_css$Css$px(400)),
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$marginLeft(
+													_rtfeldman$elm_css$Css$px(-20)),
+												_1: {
+													ctor: '::',
+													_0: _rtfeldman$elm_css$Css$marginTop(
+														_rtfeldman$elm_css$Css$px(-20)),
+													_1: {
+														ctor: '::',
+														_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+														_1: {ctor: '[]'}
+													}
+												}
+											}
+										}
 									}
 								}
 							}
@@ -87,38 +108,49 @@ var _user$project$HomepageCss$css = function (_p0) {
 						ctor: '::',
 						_0: A2(
 							_rtfeldman$elm_css$Css$id,
-							_user$project$SharedStyles$BuyTickets,
+							_user$project$SharedStyles$PathToLogFileInput,
 							{
 								ctor: '::',
 								_0: _rtfeldman$elm_css$Css$padding(
-									_rtfeldman$elm_css$Css$px(16)),
+									_rtfeldman$elm_css$Css$px(12)),
 								_1: {
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$paddingLeft(
-										_rtfeldman$elm_css$Css$px(24)),
+									_0: _rtfeldman$elm_css$Css$width(
+										_rtfeldman$elm_css$Css$pct(10)),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$paddingRight(
-											_rtfeldman$elm_css$Css$px(24)),
+										_0: _rtfeldman$elm_css$Css$height(
+											_rtfeldman$elm_css$Css$px(30)),
 										_1: {
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$marginLeft(
-												_rtfeldman$elm_css$Css$px(50)),
+											_0: _rtfeldman$elm_css$Css$top(
+												_rtfeldman$elm_css$Css$pct(40)),
 											_1: {
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$marginRight(_rtfeldman$elm_css$Css$auto),
+												_0: _rtfeldman$elm_css$Css$left(
+													_rtfeldman$elm_css$Css$pct(42.5)),
 												_1: {
 													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$color(
-														A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+													_0: _rtfeldman$elm_css$Css$marginLeft(
+														_rtfeldman$elm_css$Css$px(-20)),
 													_1: {
 														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$backgroundColor(
-															A3(_rtfeldman$elm_css$Css$rgb, 27, 217, 130)),
+														_0: _rtfeldman$elm_css$Css$marginTop(
+															_rtfeldman$elm_css$Css$px(-20)),
 														_1: {
 															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$verticalAlign(_rtfeldman$elm_css$Css$middle),
-															_1: {ctor: '[]'}
+															_0: _rtfeldman$elm_css$Css$color(
+																A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+															_1: {
+																ctor: '::',
+																_0: _rtfeldman$elm_css$Css$backgroundColor(
+																	A3(_rtfeldman$elm_css$Css$rgb, 27, 217, 130)),
+																_1: {
+																	ctor: '::',
+																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																	_1: {ctor: '[]'}
+																}
+															}
 														}
 													}
 												}

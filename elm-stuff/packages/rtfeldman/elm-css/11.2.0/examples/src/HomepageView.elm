@@ -16,7 +16,7 @@ main =
             [ img [ id ReactiveLogo, src "assets/logo.png" ] []
             , nav []
                 navElems
-            , span [ id BuyTickets ]
+            , span [ id PathToLogFileInput ]
                 [ text "BUY TICKETS" ]
             ]
         , div []

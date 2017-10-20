@@ -22,20 +22,28 @@ css =
             [ margin (px 12)
             , color (rgb 255 255 255)
             ]
-        , id ReactiveLogo
-            [ display inlineBlock
-            , marginLeft (px 150)
-            , marginRight (px 80)
-            , verticalAlign middle
+        , id SubmitButton
+            [ padding (px 3)
+            , width (px 70)
+            , height (px 20)
+            , top (pct 40)
+            , left (px 400)
+            , marginLeft (px -20)
+            , marginTop (px -20)
+--            , color (rgb 255 255 255)
+--            , backgroundColor (rgb 27 217 130)
+            , position absolute
             ]
-        , id BuyTickets
-            [ padding (px 16)
-            , paddingLeft (px 24)
-            , paddingRight (px 24)
-            , marginLeft (px 50)
-            , marginRight auto
+        , id PathToLogFileInput
+            [ padding (px 12)
+            , width (pct 10)
+            , height (px 30)
+            , top (pct 40)
+            , left (pct 42.5)
+            , marginLeft (px -20)
+            , marginTop (px -20)
             , color (rgb 255 255 255)
             , backgroundColor (rgb 27 217 130)
-            , verticalAlign middle
+            , position absolute
             ]
         ]
