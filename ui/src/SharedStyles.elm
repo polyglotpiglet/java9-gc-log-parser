@@ -4,7 +4,7 @@ import Html.CssHelpers exposing (withNamespace)
 
 
 type CssClasses
-    = NavLink
+    = GentleBorder
 
 
 type CssIds

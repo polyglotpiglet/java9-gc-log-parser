@@ -47,15 +47,14 @@ var _user$project$HomepageCss$css = function (_p0) {
 				ctor: '::',
 				_0: A2(
 					_rtfeldman$elm_css$Css$class,
-					_user$project$SharedStyles$NavLink,
+					_user$project$SharedStyles$GentleBorder,
 					{
 						ctor: '::',
-						_0: _rtfeldman$elm_css$Css$margin(
-							_rtfeldman$elm_css$Css$px(12)),
+						_0: _rtfeldman$elm_css$Css$borderStyle(_rtfeldman$elm_css$Css$solid),
 						_1: {
 							ctor: '::',
-							_0: _rtfeldman$elm_css$Css$color(
-								A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+							_0: _rtfeldman$elm_css$Css$borderColor(
+								A3(_rtfeldman$elm_css$Css$rgb, 220, 220, 220)),
 							_1: {ctor: '[]'}
 						}
 					}),
@@ -70,32 +69,37 @@ var _user$project$HomepageCss$css = function (_p0) {
 								_rtfeldman$elm_css$Css$px(3)),
 							_1: {
 								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$width(
-									_rtfeldman$elm_css$Css$px(70)),
+								_0: _rtfeldman$elm_css$Css$fontSize(
+									_rtfeldman$elm_css$Css$pct(100)),
 								_1: {
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$height(
-										_rtfeldman$elm_css$Css$px(20)),
+									_0: _rtfeldman$elm_css$Css$width(
+										_rtfeldman$elm_css$Css$pct(7)),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$top(
-											_rtfeldman$elm_css$Css$pct(40)),
+										_0: _rtfeldman$elm_css$Css$height(
+											_rtfeldman$elm_css$Css$pct(4)),
 										_1: {
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$left(
-												_rtfeldman$elm_css$Css$px(400)),
+											_0: _rtfeldman$elm_css$Css$top(
+												_rtfeldman$elm_css$Css$pct(45)),
 											_1: {
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$marginLeft(
-													_rtfeldman$elm_css$Css$px(-20)),
+												_0: _rtfeldman$elm_css$Css$left(
+													_rtfeldman$elm_css$Css$pct(60)),
 												_1: {
 													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$marginTop(
-														_rtfeldman$elm_css$Css$px(-20)),
+													_0: _rtfeldman$elm_css$Css$marginLeft(
+														_rtfeldman$elm_css$Css$pct(0)),
 													_1: {
 														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-														_1: {ctor: '[]'}
+														_0: _rtfeldman$elm_css$Css$marginTop(
+															_rtfeldman$elm_css$Css$pct(0)),
+														_1: {
+															ctor: '::',
+															_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+															_1: {ctor: '[]'}
+														}
 													}
 												}
 											}
@@ -115,40 +119,45 @@ var _user$project$HomepageCss$css = function (_p0) {
 									_rtfeldman$elm_css$Css$px(12)),
 								_1: {
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$width(
-										_rtfeldman$elm_css$Css$pct(10)),
+									_0: _rtfeldman$elm_css$Css$fontSize(
+										_rtfeldman$elm_css$Css$pct(150)),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$height(
-											_rtfeldman$elm_css$Css$px(30)),
+										_0: _rtfeldman$elm_css$Css$width(
+											_rtfeldman$elm_css$Css$pct(30)),
 										_1: {
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$top(
-												_rtfeldman$elm_css$Css$pct(40)),
+											_0: _rtfeldman$elm_css$Css$height(
+												_rtfeldman$elm_css$Css$pct(3)),
 											_1: {
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$left(
-													_rtfeldman$elm_css$Css$pct(42.5)),
+												_0: _rtfeldman$elm_css$Css$top(
+													_rtfeldman$elm_css$Css$pct(40)),
 												_1: {
 													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$marginLeft(
-														_rtfeldman$elm_css$Css$px(-20)),
+													_0: _rtfeldman$elm_css$Css$left(
+														_rtfeldman$elm_css$Css$pct(35)),
 													_1: {
 														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$marginTop(
-															_rtfeldman$elm_css$Css$px(-20)),
+														_0: _rtfeldman$elm_css$Css$marginLeft(
+															_rtfeldman$elm_css$Css$pct(0)),
 														_1: {
 															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$color(
-																A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
+															_0: _rtfeldman$elm_css$Css$marginTop(
+																_rtfeldman$elm_css$Css$pct(0)),
 															_1: {
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$backgroundColor(
-																	A3(_rtfeldman$elm_css$Css$rgb, 27, 217, 130)),
+																_0: _rtfeldman$elm_css$Css$color(
+																	A3(_rtfeldman$elm_css$Css$rgb, 255, 255, 255)),
 																_1: {
 																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																	_1: {ctor: '[]'}
+																	_0: _rtfeldman$elm_css$Css$backgroundColor(
+																		A3(_rtfeldman$elm_css$Css$rgb, 220, 220, 220)),
+																	_1: {
+																		ctor: '::',
+																		_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																		_1: {ctor: '[]'}
+																	}
 																}
 															}
 														}

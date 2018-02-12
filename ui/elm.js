@@ -8539,7 +8539,7 @@ var _rtfeldman$elm_css_helpers$Html_CssHelpers$Namespace = F4(
 	});
 
 var _user$project$SharedStyles$homepageNamespace = _rtfeldman$elm_css_helpers$Html_CssHelpers$withNamespace('homepage');
-var _user$project$SharedStyles$NavLink = {ctor: 'NavLink'};
+var _user$project$SharedStyles$GentleBorder = {ctor: 'GentleBorder'};
 var _user$project$SharedStyles$PathToLogFileInput = {ctor: 'PathToLogFileInput'};
 var _user$project$SharedStyles$SubmitButton = {ctor: 'SubmitButton'};
 
@@ -8613,7 +8613,19 @@ var _user$project$Main$view = function (model) {
 						_0: _elm_lang$html$Html$text('Submit'),
 						_1: {ctor: '[]'}
 					}),
-				_1: {ctor: '[]'}
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{ctor: '[]'},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text(
+								_elm_lang$core$Basics$toString(model)),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
 			}
 		});
 };

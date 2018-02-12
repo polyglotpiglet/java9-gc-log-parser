@@ -18,32 +18,32 @@ css =
             [ display inlineBlock
             , paddingBottom (px 12)
             ]
-        , class NavLink
-            [ margin (px 12)
-            , color (rgb 255 255 255)
+        , class GentleBorder
+            [  borderStyle solid
+            ,  borderColor (rgb 220 220 220)
             ]
         , id SubmitButton
             [ padding (px 3)
-            , width (px 70)
-            , height (px 20)
-            , top (pct 40)
-            , left (px 400)
-            , marginLeft (px -20)
-            , marginTop (px -20)
---            , color (rgb 255 255 255)
---            , backgroundColor (rgb 27 217 130)
+            , fontSize (pct 100)
+            , width (pct 7)
+            , height (pct 4)
+            , top (pct 45)
+            , left (pct 60)
+            , marginLeft (pct 0)
+            , marginTop (pct 0)
             , position absolute
             ]
         , id PathToLogFileInput
             [ padding (px 12)
-            , width (pct 10)
-            , height (px 30)
+            , fontSize (pct 150)
+            , width (pct 30)
+            , height (pct 3)
             , top (pct 40)
-            , left (pct 42.5)
-            , marginLeft (px -20)
-            , marginTop (px -20)
+            , left (pct 35)
+            , marginLeft (pct 0)
+            , marginTop (pct 0)
             , color (rgb 255 255 255)
-            , backgroundColor (rgb 27 217 130)
+            , backgroundColor (rgb 220 220 220)
             , position absolute
             ]
         ]

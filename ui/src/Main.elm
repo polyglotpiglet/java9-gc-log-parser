@@ -27,7 +27,7 @@ model =
 
 -- UPDATE
 
-type Msg = PathToLogFile String | Increment
+type Msg = PathToLogFile String | Increment | SubmitLogFile
 
 update : Msg -> Model -> Model
 update msg model =
@@ -38,13 +38,17 @@ update msg model =
     Increment ->
        { model | magicNumber = model.magicNumber + 1 }
 
+    SubmitLogFile ->
+        { model | magicNumber = model.magicNumber}
+
 
 -- VIEW
 
 view : Model -> Html Msg
 view model =
   div []
-    [ input [ id PathToLogFileInput, type_ "text", placeholder "Path to log file", onInput PathToLogFile ] []
-    , button [ id SubmitButton, onClick Increment ] [ text "Submit" ]
+    [ input [ id PathToLogFileInput, type_ "text", placeholder "Path to log file", onInput PathToLogFile] []
+    , button [ id SubmitButton, onClick SubmitLogFile ] [ text "Submit" ]
+    , div [] [ text (toString model) ]
     ]
 
